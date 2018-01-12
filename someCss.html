@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+	<style>
+		p.style1 {
+			font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
+		}
+		p.style2 {
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		}
+		p.styleWhite {
+			color: floralwhite;
+		}
+		body {
+			background-color: beige;
+		}
+		div.container3 p {
+		   margin: 0;
+		   position: absolute;               /* 2 */
+		   top: 50%;                         /* 3 */
+		   transform: translate(0, -50%) 
+		}
+		.wrap {
+   			width: 1060px;
+    		height:auto;
+    		margin: auto;
+    		text-align:center;
+    		position:relative;
+   		}
+		.text_over_image {
+   			position: absolute;
+    		margin: auto;
+    		top: 0;
+    		left:0;
+    		right:0;
+    		bottom:0;
+    		color:#fff;
+    		height:29px;
+    	} 
+		p.dottedBorder {
+			border-style: dotted;
+		}
+
+	</style>
+	<head>
+	<title>Devyn's Website</title>
+	</head>
+
+<body>
+	<h1>Devyn's Website</h1>
+	<h2>About Me</h2>
+	<p class="style1"> I was born in Olympia and raised all over the world. I have had the opportunity to live</p>
+	<p class="style2"> on three different continents which is pretty cool.</p>
+	<h2>My Favorite Websites</h2>
+	<ol>
+		<li><a href="https://www.youtube.com/channel/UCoetBN8JInRal_q0QQLZ-hQ?view_as=subscriber">YouTube</a></li>
+		<li><a href="https://www.instagram.com/devynduvall/">Instagram</a></li>
+		<li><a href="https://www.linkedin.com/in/devynduvall/">Linkedin</a></li>
+		<li><a href="https://vimeo.com/iamdevynduvall">Vimeo</a></li>
+		<li><a href="https://www.strava.com/athletes/2891715">Strava</a></li>
+	</ol>
+	<h2>My Favorite Images</h2>
+		<a href="https://www.nationalgeographic.com/adventure/everest/">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg" title="Mountains" style= "width:50px;height:50px">
+		</a>
+		<a href="http://www.theuiaa.org/the-uiaa-mountain-sustainability/">
+			<img src="http://www.theuiaa.org/wp-content/uploads/2016/08/uiaa-sustainability-intro-1300x600.jpg" title="Mountain Valley" style="width:50px;height:50px">
+		</a>
+	<h2>Text in Middle of Image</h2>
+		<div class="wrap">
+			<div>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg" title="Mountains" style="width:450px">
+			<h1 class="text_over_image">This is magic...</h1>
+			</div>
+		</div>
+		
+	<h2>Image with 20px Margins</h2>
+		<img src="http://www.theuiaa.org/wp-content/uploads/2016/08/uiaa-sustainability-intro-1300x600.jpg" title="Mountain Valley" style="width:450px;margin:20">
+	<h2>Dotted Border</h2>
+		<p class="dottedBorder"> OH yeah I went there</p>
+		
+</body>
+</html>
